@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin: 20px;
+}
+
+.navbar a {
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: inline;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+#dashboard {
+    height: 20px;
+    width: 20px;
+}
+
+input[type="text"] {
+    width: 470px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gray;
+}
+
+input[type="text"]:hover {
+    box-shadow: 2px 2px 2px rgb(184, 184, 184);
+}
+
+
