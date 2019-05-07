@@ -28,7 +28,7 @@ body {
     opacity: 0.75;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: small;
     display: inline;
 } 
 
@@ -44,17 +44,18 @@ body {
 .logo {
     display:flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 160px;
+    
 }
 
 .form {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 input[type="text"] {
-    width: 470px;
+    width: 550px;
     height: 45px;
     border-radius: 20px;
     font-size: 16px;
@@ -76,9 +77,9 @@ input[type="text"]:hover {
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: white; 
-    padding: 14px 28px;
+    padding: 10px 20px;
     cursor: pointer; 
-    margin: 11px 4px;
+    margin: 35px 4px;
 }
 
 .default {
@@ -93,4 +94,24 @@ input[type="text"]:hover {
     background: #ddd;
 }
 
+.footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #5f6368;
+    padding-left: 27px;
+}
+
+.settings {
+    padding-right: 27px;
+}
 
